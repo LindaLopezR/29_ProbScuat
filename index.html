@@ -6,103 +6,149 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
 </head>
 <body>
-	<header><!-- HEADER - MENÚ -->	
-		<nav class="navbar fondo">
+	<header class="fondo"><!-- HEADER - MENÚ -->	
+		<nav class="navbar navbar-default navbar-fixed-top fondo">
 			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+					<button type="button" class="navbar-toggle collapsed" id="menu" data-toggle="collapse" data-target="#navbar-1">
 						<span class="sr-only">Menu</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<h3 class="nG">CoderSquat</h3>
+					<p class="logo c-Bla">CoderSquat</p>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-1">
 					<ul class="nav navbar-nav navbar-right text-center">
-						<li><a href="#">Problematica</a></li>
-						<li><a href="#">Soluciones</a></li>
-						<li><a href="#">Sobre nosotras</a></li>
-						<li><a href="#">Contácto</a></li>
+						<li><a href="#" class="c-Bla">Problematica</a></li>
+						<li><a href="#solucion" class="c-Bla">Soluciones</a></li>
+						<li><a href="#" class="c-Bla">Sobre nosotras</a></li>
+						<li><a href="#contacto" class="c-Bla">Contácto</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 	</header>
+	<section class="fondoD"><!-- PRIMERA SECCIÓN - IMAGEN GRANDE -->
+				<div class="container">
+				<div class="row text-justify mt-3">
+					<div class="col-xs-12 col-sm-7">
+						<img class="foto" src="img/FotoSquat.jpg" alt="Foto">
+					</div>
+					<div class="col-xs-12 col-sm-5 fondo1 c-Bla">
+						<h2 class="text-center text-Ne">Organización en equipo</h2>
+						<p>Hola! Somos CoderSquart, un grupo de chicas apasionadas por la tecnología quienes con este conocimiento podemos escribir esta página destinada a la organización en equipo</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex molestiae soluta, quod inventore dolorum ea ut asperiores eos odit rem quos dolore veritatis aut, doloribus dignissimos, voluptatem at placeat reprehenderit.</p>
+						<button class="btn btn-info center-block mt-1" type="submit">Leer Más</button>
+					</div>	
+				</div>
+			</div>
+	</section>	
 	<section>
-		<div class="container text-justify">
-			<div class="row"> <!-- PRIMERA SECCIÓN - IMAGEN LATERAL GRANDE -->
-				<div class="col-xs-12 col-sm-7">
-					<img src="#" alt="">
-				</div>
-				<div class="col-xs-12 col-sm-5">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit reprehenderit et ipsam inventore quaerat vitae quo consectetur. Voluptatum nobis modi eius sequi veritatis eaque, labore aut et, enim alias?</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla libero eum iusto sapiente perferendis mollitia. Laudantium quae repellat quod fuga obcaecati eaque accusamus, incidunt fugit consectetur, esse sit veritatis voluptatem!</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex molestiae soluta, quod inventore dolorum ea ut asperiores eos odit rem quos dolore veritatis aut, doloribus dignissimos, voluptatem at placeat reprehenderit.</p>
+		<div class="container">
+			<div class="row mt-3"> <!-- SEGUNDA SECCIÓN - PROBLEMÁTICA -->
+				<div class="col-xs-12 text-center">
+					<h2 class="cont">Problemática</h2>
+					<hr>
 				</div>
 			</div>
-			<div class="row"> <!-- PRIMERA SECCIÓN - PROBLEMÁTICA -->
-				<div class="col-xs-12">
-					<h2>Problemática</h2>
-				</div>
-				<div class="col-xs-6 col-sm-3">
-					<img src="#" alt="">
+			<div class="row mt-5">
+				<div class="col-xs-6 col-sm-3 text-justify">
+					<img class="img1 center-block" src="img/trello.png" alt="Trello">
+					<h3 class="text-center">Trello</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, temporibus, doloremque. Excepturi iusto perferendis ad esse architecto modi praesentium nulla, alias labore, sint quidem consequatur, illum quae dolores nostrum velit.</p>
 				</div>
-				<div class="col-xs-6 col-sm-3">
-					<img src="#" alt="">
+				<div class="col-xs-6 col-sm-3 text-justify">
+					<img class="img1 center-block" src="img/github.png" alt="Github">
+					<h3 class="text-center">GitHub</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, temporibus, doloremque. Excepturi iusto perferendis ad esse architecto modi praesentium nulla, alias labore, sint quidem consequatur, illum quae dolores nostrum velit.</p>
 				</div>
-				<div class="col-xs-6 col-sm-3">
-					<img src="#" alt="">
+				<div class="col-xs-6 col-sm-3 text-justify">
+					<img class="img1 center-block" src="img/comprobacion.jpg" alt="Daily">
+					<h3 class="text-center">Daily</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, temporibus, doloremque. Excepturi iusto perferendis ad esse architecto modi praesentium nulla, alias labore, sint quidem consequatur, illum quae dolores nostrum velit.</p>
 				</div>
-				<div class="col-xs-6 col-sm-3">
-					<img src="#" alt="">
+				<div class="col-xs-6 col-sm-3 text-justify">
+					<img class="img1 center-block" src="img/code_icon.png" alt="Código">
+					<h3 class="text-center">Código</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, temporibus, doloremque. Excepturi iusto perferendis ad esse architecto modi praesentium nulla, alias labore, sint quidem consequatur, illum quae dolores nostrum velit.</p>
 				</div>
 			</div>
-			<div class="row"> <!-- PRIMERA SECCIÓN - SOLUCIONES -->
-				<div class="col-xs-12">
-					<h2>Soluciones</h2>
+		</div>
+	</section>		
+	<section>	
+		<div class="container"> <!-- TERCERA SECCIÓN - SOLUCIONES -->
+			<div class="row"><a name="solucion"></a>
+				<div class="col-xs-12 text-center">
+					<h2 class="cont">Soluciones</h2>
+					<hr>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col-xs-12 col-sm-4">
+					<iframe width="100%" src="https://www.youtube.com/embed/5cosEFM-VAc" frameborder="0" allowfullscreen></iframe>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, temporibus, doloremque. Excepturi iusto perferendis ad esse architecto modi praesentium nulla, alias labore, sint quidem consequatur, illum quae dolores nostrum velit.</p>
+					<button class="btn btn-info center-block" type="submit">Button</button>
 				</div>
 				<div class="col-xs-12 col-sm-4">
-					<img src="#" alt="">
+					<iframe width="100%" src="https://www.youtube.com/embed/DWhPcDS076Y" frameborder="0" allowfullscreen></iframe>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, temporibus, doloremque. Excepturi iusto perferendis ad esse architecto modi praesentium nulla, alias labore, sint quidem consequatur, illum quae dolores nostrum velit.</p>
+					<button class="btn btn-info center-block" type="submit">Button</button>
 				</div>
 				<div class="col-xs-12 col-sm-4">
-					<img src="#" alt="">
+					<iframe width="100%" src="https://www.youtube.com/embed/NmbqlkLTOSI" frameborder="0" allowfullscreen></iframe>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, temporibus, doloremque. Excepturi iusto perferendis ad esse architecto modi praesentium nulla, alias labore, sint quidem consequatur, illum quae dolores nostrum velit.</p>
-				</div>
-				<div class="col-xs-12 col-sm-4">
-					<img src="#" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, temporibus, doloremque. Excepturi iusto perferendis ad esse architecto modi praesentium nulla, alias labore, sint quidem consequatur, illum quae dolores nostrum velit.</p>
+					<button class="btn btn-info center-block" type="submit">Button</button>
 				</div>
 			</div>
 		</div>
 	</section>
 	<footer>
 		<div class="container">
-			<div class="row"> <!-- FOOTER - CONTACTO INTEGRANTES DE EQUIPO -->
+			<div class="row c-Mo"><a name="contacto"></a>
+				<h2>Contacto</h2>
+			</div>
+			<div class="row c-Ro text-center mt-3"> <!-- FOOTER - CONTACTO -->
 				<div class="col-xs-4 col-sm-2">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium labore necessitatibus aperiam, repudiandae, unde quod sint! Dolores maiores assumenda illo porro dolore eos possimus, harum impedit quis ipsa! Perspiciatis, sapiente.</p>
+					<h4>Berenice</h4>
+					<a href="#"><i class="fa fa-facebook-square fa-1x"></a></i>
+					<a href="#"><i class="fa fa-github-alt fa-1x"></i></a>
+					<a href="#"><i class="fa fa-trello fa-1x"></i></a>
 				</div>
 				<div class="col-xs-4 col-sm-2">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium labore necessitatibus aperiam, repudiandae, unde quod sint! Dolores maiores assumenda illo porro dolore eos possimus, harum impedit quis ipsa! Perspiciatis, sapiente.</p>
+					<h4>Linda</h4>
+					<a href="#"><i class="fa fa-facebook-square fa-1x"></a></i>
+					<a href="#"><i class="fa fa-github-alt fa-1x"></i></a>
+					<a href="#"><i class="fa fa-trello fa-1x"></i></a>
 				</div>
 				<div class="col-xs-4 col-sm-2">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium labore necessitatibus aperiam, repudiandae, unde quod sint! Dolores maiores assumenda illo porro dolore eos possimus, harum impedit quis ipsa! Perspiciatis, sapiente.</p>
+					<h4>Mariana</h4>
+					<a href="#"><i class="fa fa-facebook-square fa-1x"></a></i>
+					<a href="#"><i class="fa fa-github-alt fa-1x"></i></a>
+					<a href="#"><i class="fa fa-trello fa-1x"></i></a>
 				</div>
 				<div class="col-xs-4 col-sm-2">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium labore necessitatibus aperiam, repudiandae, unde quod sint! Dolores maiores assumenda illo porro dolore eos possimus, harum impedit quis ipsa! Perspiciatis, sapiente.</p>
+					<h4>Naye</h4>
+					<a href="#"><i class="fa fa-facebook-square fa-1x"></a></i>
+					<a href="#"><i class="fa fa-github-alt fa-1x"></i></a>
+					<a href="#"><i class="fa fa-trello fa-1x"></i></a>
 				</div>
 				<div class="col-xs-4 col-sm-2">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium labore necessitatibus aperiam, repudiandae, unde quod sint! Dolores maiores assumenda illo porro dolore eos possimus, harum impedit quis ipsa! Perspiciatis, sapiente.</p>
+					<h4>Pao</h4>
+					<a href="#"><i class="fa fa-facebook-square fa-1x"></a></i>
+					<a href="#"><i class="fa fa-github-alt fa-1x"></i></a>
+					<a href="#"><i class="fa fa-trello fa-1x"></i></a>
 				</div>
 				<div class="col-xs-4 col-sm-2">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium labore necessitatibus aperiam, repudiandae, unde quod sint! Dolores maiores assumenda illo porro dolore eos possimus, harum impedit quis ipsa! Perspiciatis, sapiente.</p>
+					<h4>Valeria</h4>
+					<a href="#"><i class="fa fa-facebook-square fa-1x"></a></i>
+					<a href="#"><i class="fa fa-github-alt fa-1x"></i></a>
+					<a href="#"><i class="fa fa-trello fa-1x"></i></a>
 				</div>
 			</div>
 		</div>
